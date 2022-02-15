@@ -1,0 +1,113 @@
+.bimg1{
+    opacity: 0.4;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+.base{
+    overflow: hidden;
+    position: relative;
+}
+.content{
+    position: relative;
+}
+.nav{
+    position: relative;
+}
+.d1{
+    background: rgba(128, 128, 128, 1) ;
+   
+    padding-left: 45%;
+    text-align: justify;
+    font-size: large;
+    
+}
+/* h1:hover{
+    color:red;
+} */
+
+.img1{
+    box-sizing: border-box; 
+    height: 30%;
+    width: 40%;
+    margin: 10px 10px ;
+    border: 6px solid black;
+    display:inline;
+    float: right;
+}
+/* .table{
+    display:inline;
+    float: right;
+}  */
+h1{
+    color:black;
+}
+.c2{
+    color:lightgoldenrodyellow;
+}
+#id1{
+    color:green;
+    display: inline;
+}
+h1 + a{
+    /* selects all the anchor tags after h1, they must have same parents*/
+    color:sandybrown;
+}
+textarea ~ button{
+    /* selects all elements that are next siblings of a specified element */
+    color: springgreen;
+}
+a:hover{
+    color: slateblue;
+}
+/* ol>li{
+    color:crimson
+} */
+ul>li{
+    /* all the li under all the uls (child selector)*/
+    color: teal;
+}
+
+ 
+ul li{
+    /* descendent selector */
+     color:coral;
+} 
+.li{
+    flex-basis: 400px;
+    font-size:large;
+    width: 25%;
+    margin:10px;
+    border-left: black solid;
+    text-align: center;
+
+}
+.nav{
+    
+    background:rgba(133, 99, 106,0.4);
+    display: flex;
+    justify-content: space-around;
+    border:rgba(128, 128, 128, 1) solid;
+    align-items: stretch;
+}
+.grid-container{
+    position: relative;
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto;
+    /* grid-column-gap:100px; */
+    grid-template-rows: auto auto auto;
+
+    
+
+    /* justify-content: space-around; */
+    /* align-content: end; */
+    
+    /* grid-row-gap: 100px; */
+}
+.grid-item{
+    height:50px;
+    width:70px;
+    margin:10px;
+    text-align: center;
+}
